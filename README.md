@@ -12,3 +12,5 @@ py -m pip install langchain
 py -m pip install openai
 py -m pip install -U langchain-community
 py -m pip install unstructured
+
+pip install -U langchain-together langchain-core langchain-community faiss-cpu tiktoken
