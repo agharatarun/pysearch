@@ -45,7 +45,7 @@ def preprocess_text(documents):
  
 # Step 3: Groq Integration 
 def create_groq_dataset(preprocessed_documents): 
-    client = Client(api_key='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') 
+    client = Client(api_key='keyhere') 
     print("printing dataset...")
     print(dir(client))
     dataset = client.datasets().create('my_local_machine_dataset', doc_strings=preprocessed_documents)
