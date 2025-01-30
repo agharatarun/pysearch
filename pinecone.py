@@ -57,7 +57,7 @@ len(query_result)
 # embeddings = get_embeddings(text)
 
 pinecone.init(
-    api_key="5ffa625c-c05b-4400-b90b-b5e3a8a5e840",
+    api_key="keyhere",
     environment="env"
 )
 
